@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <form action="">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="nm" id="nm" value="nm" placeholder="enter the name" required ></td>
+                    </tr> 
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
+

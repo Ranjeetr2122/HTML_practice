@@ -1,0 +1,73 @@
+<html>
+    <body>
+        <form method="post">
+        <table border="4">
+            <tbody>
+
+                <tr>
+                    <td><label for="uname"> User Name :</label></td> 
+                    <td>
+                        <input type="text" name="uname" id="uname" placeholder="enter the username" required minlength="4" maxlength="10" autofocus>   
+                    </td>
+                </tr> 
+
+                <tr>
+                    <td><label for="password"> Password : </label></td> 
+                    <td>
+                        <input type="password" name="password" id="passwprd" placeholder="enter the password" required minlength="5" maxlength="10" autofocus >   
+                    </td>
+                </tr> 
+                
+
+                <tr>
+                    <td><label for="dob"> Date of Birth : </label></td>
+                    <td><input type="date" name="dob" id="dob" value="dob" required ></td>
+                </tr>  
+
+                <tr>
+                    <td><label for="gnd"> Gender : </label></td>
+                    <td><input type="radio" name="gnd" id="gnd" value="gnd"required > Female</td>
+                    <td><input type="radio" name="gnd" id="gnd" value="gnd"required > Male </td>
+                </tr>  
+
+                <tr>
+                    <td><label for="dg"> Degree : </label></td>
+                    <td><input type="radio" name="dg" id="dg" value="dg"required >Btech</td>
+                    <td><input type="radio" name="dg" id="dg" value="dg"required >BE</td>
+                    <td><input type="radio" name="dg" id="dg" value="dg" required>B.com</td>
+                </tr> 
+
+                <tr>
+                    <td><label for="sk">Skill : </label></td>
+                    <td> <input type="checkbox" name="sk" id="sk" value="sk" required> C </td>
+                    <td> <input type="checkbox" name ="sk" id="sk" value="sk" required> C++</td>
+                    <td> <input type="checkbox" name="sk" id="sk" value="sk" required > JAVA</td>
+                    <td> <input type="checkbox" name="sk" id="sk" value="sk" required > Python </td>
+                </tr>
+
+                <tr>
+                    <td><label for="loc"> Location : </label></td>
+                <td>
+                        <select name="place" id="loc"> 
+                        <option value=" ">-------Select the option-------</option>
+                        <option value="pune"> pune</option>
+                        <option value="Mumbai"> Mumbai</option>
+                        <option value="Kol">KOl</option>
+                        <option value="San"> sangli</option>
+                        <option value="karad">karad</option>
+                        <option value="guj">guj</option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type ="submit" name ="btn" id ="btn" value ="login">Submit </button>
+                        <button type ="reset" name ="btn" id ="btn" value ="cancel">Cancel</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </form>
+    </body>
+</html>
