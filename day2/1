@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMILTON CONF</title>
+    <style>
+        
+        #table2 thead tr th{
+            padding: 10px;
+        }
+        #table2 thead tr td{
+           background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hamilton Conference Center</h1>
+    <table   style="width: 53vw;">
+        <thead>
+         <tr style="background-color: aquamarine;">
+            <th>HomePage</th>
+            <th>Reservation</th>
+            <th>Facilities</th>
+            <th>Virtual Tour</th>
+            <th>Staff</th>
+            <th>Calender Of Events</th>
+            <th>Contact Info</th>
+            <th>Directions</th>
+            <th>FAQ</th>
+         </tr>
+         <tr >
+              <th colspan="9" style="text-align: right;">
+              Reservation For Conference Rooms <br>
+              Tuesday,April 11
+              </th>
+         </tr>
+         
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td colspan="4" align="Center">Morning</td>
+                <td>noon</td>
+                <td colspan="3">Afternoon</td>
+            </tr>
+           
+        </tbody>
+    </table>
+    <table id="table2"  border="2px" style="width: 400px;">
+        <thead style="background-color: aquamarine;">
+            <tr style="background-color: aquamarine;">
+                <th>Room</th>
+                <th>8:00</th>
+                <th>8:30</th>
+                <th>9:00</th>
+                <th>9:30</th>
+                <th>10:00</th>
+                <th>10:30</th>
+                <th>11:00</th>
+                <th>11:30</th>
+                <th>12:00</th>
+                <th>12:30</th>
+                <th>1:00</th>
+                <th>1:30</th>
+                <th>2:00</th>
+                <th>2:30</th>
+                <th>3:00</th>
+                <th>3:30</th>
+                <th>4:00</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="background-color: bisque;">Sunrise <br>Room</td>
+                <td colspan="4">MarriageEncounter</td>
+                <td colspan="4"></td>
+                <td colspan="2">Marriage <br> Encounter <br>Luncheon</td>
+                <td colspan="4"></td>
+                <td colspan="4">MarriageEncounter Talks</td>
+            </tr>
+            <tr>
+                <td style="background-color: bisque;">MountainViewRoom</td>
+                <td colspan="2">BreakfastClubOfOhio</td>
+                <td colspan="4"></td>
+                <td colspan="4">OhioConferenceOfLibrarians</td>
+                <td colspan="2"></td>
+                <td colspan="6">OhioBookResaleSetup</td>
+            </tr>
+            <tr>
+                <td style="background-color: bisque;">ArborHall</td>
+                <td colspan="8">ComputerExpoSetup</td>
+                <td colspan="2"></td>
+                <td style="text-align: left;" colspan="8">ComputerExpoOpeningSession</td>
+            </tr>
+            <tr>
+                <td style="background-color: bisque;">MitchellTheatre</td>
+                <td colspan="13"></td>
+                <td colspan="4">YouthTheatre</td>
+            </tr>
+            <tr>
+                <td style="background-color: bisque;">GoldRoom</td>
+                <td colspan="2"></td>
+                <td colspan="3">TheTompkinsGroup</td>
+                <td colspan="3">PearsonPlanning</td>
+                <td colspan="4"></td>
+                <td colspan="3">MothersOfMultiples</td>
+                <td colspan="3">TeenConnection</td>
+            </tr>
+            <tr>
+                <td style="background-color: bisque;">BlueRoom</td>
+                <td colspan="2"></td>
+                <td colspan="3">RetirementPlanning</td>
+                <td colspan="3">TheSeniorGroup</td>
+                <td colspan="2">SeniorLuncheon</td>
+                <td colspan="5">SeniorClasses</td>
+                <td colspan="3">Tutoring</td>
+            </tr>
+            <tr>
+                <td style="background-color: bisque;">GreenRoom</td>
+                <td colspan="2"></td>
+                <td colspan="4">DriversEd</td>
+                <td colspan="5">MovieClub</td>
+                <td colspan="4"></td>
+                <td colspan="3">Tutoring</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="container" style="display: flex;">
+        <p style="width:300px">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur adipisci id nam consectetur quibusdam, cumque veritatis mollitia optio reiciendis illum amet, a quis dolore sapiente assumenda quidem repudiandae iste nulla dolorum. Aut, praesentium blanditiis! Atque quae dolorem a molestias accusantium sapiente repellendus ea quisquam. Veritatis deserunt autem modi! Officia quidem voluptates cum beatae molestias cupiditate iste.
+        </p>
+                     
+                    <table style="border: 2px solid blueviolet; width: 600px; position: relative ; ">
+                      <tr>
+                        <td>SunriseRoom</td>
+                        <td>Maximum Capacity:80</td>
+                      </tr>
+                      <tr>
+                        <td>MountainViewRoom</td>
+                        <td>Maximum Capacity:150</td>
+                      </tr>
+                      <tr>
+                        <td>ArborHall</td>
+                        <td>Maximum Capacity:190</td>
+                      </tr>
+                      <tr>
+                        <td>MitchellTheatre</td>
+                        <td>Maximum Capacity:120</td>
+                      </tr>
+                      <tr>
+                        <td>GoldRoom</td>
+                        <td>Maximum Capacity:40</td>
+                      </tr>
+                      <tr>
+                        <td>BlueRoom</td>
+                        <td>Maximum Capacity:30</td>
+                      </tr>
+                      <tr>
+                        <td>GreenRoom</td>
+                        <td>Maximum Capacity:55</td>
+                      </tr>
+                    </table>
+                </div>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

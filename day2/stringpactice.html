@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <script>
+            function changestring() {
+                 var sel=document.getElementById("operation");
+                var pos=sel.selectedIndex;
+                var calc=sel.options[pos].value;
+                var str=document.getElementById("str").value;
+           
+
+        switch (calc){
+            case "upper" :result="upper case :" + str.toUpperCase();
+            break;
+
+            case "lower" :result="loewr case :" +str.toLowerCase();
+            break;
+
+            case "slice" :s=prompt("enter the start and end position as the comma seperated value");
+                arr=s.split(",")
+                result = "concatation string: "+str.slice(arr[0],arr[1]);
+            break;
+
+            case "CharAt" :s=prompt("enter the position to find the char");
+                result="position :" +str.charAt(s);
+            break; 
+
+            case "replace" :c=prompt("enter what to replace");
+                                a=new RegExp(c,"gi");
+                            d=prompt("what to replace in place of entered value");
+                                   
+                // pattern=/jeet/i  
+                  result="Replace:   "+str.replace(a,d);
+            break;
+
+
+            case "indexof":s=prompt("enter the string to search");
+                    result= str.indexOf(s);
+            break;
+
+            case "search ":x=prompt("enter the char to search");
+                            y=new RegExp(x,"gi")
+                    result= str.search(y);
+            break;
+
+        
+
+
+
+
+        }
+
+            document.getElementById("mydiv").innerHTML=result
+    }
+        </script>
+    </head>
+<body>
+    <form>
+        Enter string : <input type="text" id="str" name="str">
+        Operation : <select id="operation"> 
+            <option value="select option ">-----select option -----</option>
+            <option value="upper"> upper case</option>
+            <option value="lower">lower case</option>
+            <option value="slice">slice </option>
+            <option value="CharAt"> CharAt </option>
+            <option value="replace">replace </option>
+            <option value="indexof"> indexof </option>
+            <option value="search ">search </option>
+            <option value="match">match</option>  </select>
+           &nbsp;&nbsp;&nbsp;
+            <button type="button" name="btn" id="btn" value="btn" onclick="changestring() " style="margin-top: 20px;">display result</button>
+        </form> 
+    
+        <div id="mydiv">
+
+        </div>
+
+
+
+</body>
+</html>
